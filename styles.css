@@ -1,0 +1,23 @@
+#pokedex {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controller {
+  width: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+

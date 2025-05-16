@@ -7,10 +7,30 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <script src="./pokedex.js"></script>
-    <h1>Pokedex</h1>
-    <div class="pokedex">
-        <section></section>
+    <h1 id="title">Pokedex</h1>
+    <div id="pokedex">
+      <section class="controller">
+        <h2 id="pokemon-name"><span>Name</span></h2>
+
+        <div class="button-group">
+          <button id="prev-btn">←</button>
+          <button id="next-btn">→</button>
+        </div>
+      </section>
+
+      <section class="pokemon-image">
+        <img id="pokemon-img" alt="Current Pokemon" />
+      </section>
+
+      <section class="pokemon-stats">
+        <ul>
+          <li id="hp"></li>
+          <li id="attack"></li>
+          <li id="defense"></li>
+        </ul>
+      </section>
     </div>
+
+    <script src="./pokedex.js"></script>
   </body>
 </html>
